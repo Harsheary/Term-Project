@@ -1,0 +1,27 @@
+banner- https://stock.adobe.com/search?k=real+estate+banner&asset_id=97870953
+realtor- https://scissortailfinancial.com/tulsa_mortgage_home_loan_resources/i-am-a-realtor
+customer1- https://stock.adobe.com/search?k=person&asset_id=243123463
+customer2- https://stock.adobe.com/search?k=person&asset_id=383258331
+banner2- https://www.pexels.com/photo/black-handled-key-on-key-hole-101808/
+
+pr1_list- https://www.kw.com/property/2474-RONDELL-Camarillo-CA-93012/1844800829170112
+pr_1,2-https://www.kw.com/property/2474-RONDELL-Camarillo-CA-93012/1844800829170112
+pr_1,3-https://www.kw.com/property/2474-RONDELL-Camarillo-CA-93012/1844800829170112
+pr_1,4- https://www.kw.com/property/2474-RONDELL-Camarillo-CA-93012/1844800829170112
+pr_1,5- https://www.kw.com/property/2474-RONDELL-Camarillo-CA-93012/1844800829170112
+
+pr2_list - https://www.kw.com/property/791-Latigo-Canyon-Malibu-CA-90265/1810292028321536
+pr_2,2 - https://www.kw.com/property/791-Latigo-Canyon-Malibu-CA-90265/1810292028321536
+pr_2,3 - https://www.kw.com/property/791-Latigo-Canyon-Malibu-CA-90265/1810292028321536
+pr_2,4 - https://www.kw.com/property/791-Latigo-Canyon-Malibu-CA-90265/1810292028321536
+
+pr3_list - https://www.kw.com/property/19417-Bension-Santa-Clarita-CA-91350/1841981644348416 
+pr_3,2 - https://www.kw.com/property/19417-Bension-Santa-Clarita-CA-91350/1841981644348416
+pr_3,3 - https://www.kw.com/property/19417-Bension-Santa-Clarita-CA-91350/1841981644348416
+pr_3,4 - https://www.kw.com/property/19417-Bension-Santa-Clarita-CA-91350/1841981644348416
+
+
+tags logos-
+bed - https://www.flaticon.com/free-icon/double-bed_2283945?term=bed&page=1&position=3&origin=search&related_id=2283945
+bath - https://www.flaticon.com/free-icon/bathroom_1479886?term=bathtub&page=1&position=4&origin=search&related_id=1479886
+area - https://www.flaticon.com/free-icon/wide_2782996?term=area&page=1&position=1&origin=search&related_id=2782996

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+
+        }
+
+        body {
+            padding-top: 5px;
+            background-color: antiquewhite;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: yellow;
+            margin-inline: 10%;
+            border: 2px solid blueviolet;
+            border-radius: 6px;
+            font-size: 1.4em;
+
+        }
+
+        .nav a:active {
+            color: rgb(0, 110, 255);
+        }
+
+        .nav>div {
+            margin-inline: 8px;
+
+        }
+
+        .tags {
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+        .tags img {
+            width: 20%;
+        }
+
+        .tag {
+            border: 2px solid rgb(0, 140, 255);
+            border-radius: 9px;
+            width: 10%;
+            padding: 1% 2%;
+            background-color: rgb(157, 220, 250);
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        .listing {
+            border: 2px solid rgb(0, 255, 170);
+            width: 60%;
+            padding: 1%;
+            margin: 2%;
+            background-color: rgb(192, 252, 232);
+            border-radius: 9px;
+            margin-inline: 20%;
+
+        }
+
+        #imageContainer img {
+            width: 100%;
+            border-radius: 9px;
+        }
+
+        #imageContainer {
+            margin: 2%;
+            ;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .info p {
+            text-align: center;
+
+        }
+
+        #address {
+            font-size: 1.1em;
+            color: grey;
+            font-weight: bolder;
+        }
+
+        #info {
+            font-size: 1.1em;
+            color: rgb(76, 76, 76);
+            border: 2px solid lightblue;
+            padding: 1%;
+            border-radius: 9px;
+        }
+
+        .details {
+            padding: 2%;
+            border: 2px solid lightblue;
+            border-radius: 9px;
+            margin-top: 1%;
+            font-size: 1.1em;
+            color: rgb(76, 76, 76);
+            box-sizing: border-box;
+            margin-inline: 10%;
+        }
+
+        .details ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        .footer {
+            background-color: rgb(37, 37, 37);
+            color: white;
+            text-align: center;
+            padding: .5%;
+            position: relative;
+            top: 1vh;
+        }
+
+        .footer a {
+            color: rgb(0, 102, 255);
+        }
+    </style>
+
+
+    <script>
+        var images = ["properties/pr_1,2.jpeg", "properties/pr_1,3.jpeg", "properties/pr_1,4.jpeg", "properties/pr_1,5.jpeg"];
+        var currentIndex = 0;
+
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            document.getElementById("rotatingImage").src = images[currentIndex];
+        }
+
+        setInterval(changeImage, 2000);
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <img src="logo.png" alt="" width=3% height="auto">
+        <div class="lists"><a href="homepage.html" target="_blank">Home</a></li></div>
+        <div class="lists"><a href="all_listings.html" target="_blank">Properties</a></div>
+        <div class="lists"><a href="homepage.html" target="_blank">About us</a></div>
+        <div class="lists"><a href="contactform.html" target="_blank">Contact Form</a></div>
+        <div class="lists"><a href="sitemap.html" target="_blank">Site Map</a></div>
+    </div>
+    <div class="listing">
+        <div id="imageContainer">
+            <img id="rotatingImage" src="properties/pr1_list.jpeg" alt="Image 1">
+        </div>
+        <div class="info">
+            <h2>$1,170,000</h2>
+            <div class="tags">
+                <div class="tag"><img src="tags logo/bed.png" alt="">3 bd</div>
+                <div class="tag"><img src="tags logo/bath.png" alt="">2 ba</div>
+                <div class="tag"><img src="tags logo/area.png" alt="">2803 Sq.ft</div>
+            </div>
+            <p id="address">67 Earlsbridge Blvd Brampton ON L7A 2M7</p>
+            <p id="info">Welcome To 67 Earlsbridge Blvd!! 3 Bedrooms and 2 Full washroom on second floor with Jack and
+                Jill bathroom on second floor. Fully Finished 3 Bedrooms Legal Basement Registered As Second Dwelling +
+                Sep Entrance. Discover The Epitome Of Comfortable And Stylish Living In This Stunning Detached Home.
+                Main Floor Offers Sep Family Room, Combined Living & Dining and sep Den. Accented Wood/Stone Paneled
+                Walls In Den on main floor.</p>
+        </div>
+        <div class="details">
+            <ul>
+                <li>Property Type</li>
+                <li>Semi-Detached</li>
+            </ul>
+            <ul>
+                <li>HVAC</li>
+                <li>Central Air Heating</li>
+            </ul>
+            <ul>
+                <li>Parking</li>
+                <li>4 Parking Spaces</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>&copy Harsh Eary | 301419409 | Comp-213 | Winter 2024 | <a target="_blank" href="sitemap.html">Credits</a> | <a href="http://studentweb.cencol.ca/heary/">Landing
+                Page</a></a></p>
+    </div>
+
+</body>
+
+</html>

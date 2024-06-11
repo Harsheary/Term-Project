@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listings</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .nav a{
+            text-decoration: underline;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: yellow;
+            margin-inline: 10%;
+            border: 2px solid blueviolet;
+            border-radius: 6px;
+            font-size: 1.4em;
+            
+
+        }
+        .nav a:active{
+            color: rgb(0, 110, 255);
+        }
+
+        .nav>div {
+            margin-inline: 8px;
+            
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(247, 196, 103);
+            padding: 2%;
+            border-radius: 9px;
+            
+        }
+        .listing {
+            border: 2px solid salmon;
+            width: 23%;
+            border-radius: 9px;
+            background-color: aquamarine;
+            padding: 1%;
+            box-shadow: 14px 14px 5px orange;
+        }
+
+        .images img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .price {
+            display: flex;
+            margin-block: 0px;
+            justify-content: space-between;
+            padding-inline: 5%;
+            color: black;
+        }
+
+        .like {
+            border: 2px solid red;
+            border-radius: 9px;
+            padding: 0% 2%;
+            background-color: rgb(254, 137, 137);
+            color: white;
+        }
+
+        .like:active {
+            background-color: red;
+        }
+
+        .tags {
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+        .tags img {
+            width: 20%;
+        }
+
+        .tag {
+            border: 2px solid rgb(0, 140, 255);
+            border-radius: 9px;
+            width: 25%;
+            padding: 1% 2%;
+            background-color: rgb(157, 220, 250);
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        .address {
+            padding: 5% 2%;
+            text-align: center;
+            color: rgb(136, 136, 136);
+        }
+
+        .address:hover {
+            font-weight: bold;
+        }
+
+        a {
+           text-decoration: none;
+           
+        }
+        h2{
+            border: 2px dashed salmon;
+            background-color: rgb(183, 255, 231);
+            border-radius: 9px;
+            margin-inline:30%;
+            text-align: center;
+        }
+        
+        .button{
+            border: 2px solid rgb(0, 140, 255);
+            border-radius: 9px;
+            background-color: skyblue;
+            color: white;
+            text-align: center;
+            margin-inline:30%;
+
+        }
+        .button:active{
+            background-color:rgb(0, 101, 184) ;
+        }
+        
+        .button a{
+            color: white;
+        }
+       
+        .footer {
+            background-color: rgb(37, 37, 37);
+            color: white;
+            text-align: center;
+            padding: .5%;
+            position: relative;
+            top: 35vh;
+        }
+
+        .footer a {
+            color: rgb(0, 102, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <img src="logo.png" alt="" width=3% height="auto">
+        <div class="lists"><a href="homepage.html">Home</a>
+        </div>
+        <div class="lists"><a  href="all_listings.html">Properties</a></div>
+        <div class="lists"><a target="_blank" href="homepage.html">About us</a></div>
+        <div class="lists"><a target="_blank" href="contactform.html">Contact Form</a></div>
+        <div class="lists"><a target="_blank" href="sitemap.html">Site Map</a></div>
+    </div>
+
+    <h2>Properties For Sale</h2>
+    <div class="main">
+            
+            <div class="listing">
+                <div class="images">
+                    <a href="listing1.html" target="_blank"><img src="properties/pr1_list.jpeg" alt=""></a>
+                </div>
+                <div class="info">
+                    <div class="price">
+                        <div><strong>$1,170,000</strong></div>
+                        <div class="like">Like</div>
+                    </div>
+                    <div class="tags">
+                        <div class="tag"><img src="tags logo/bed.png" alt="">3 bd</div>
+                        <div class="tag"><img src="tags logo/bath.png" alt="">2 ba</div>
+                        <div class="tag"><img src="tags logo/area.png" alt="">2803 Sq.ft</div>
+                    </div>
+                    <div class="address">67 Earlsbridge Blvd Brampton ON L7A 2M7</div>
+                    <div class="button"><a target="_blank" href="listing1.html">Read More</a></div>
+                </div>
+            </div>
+       
+
+        
+            <div class="listing">
+                <div class="images">
+                   <a href="listing2.html" target="_blank"> <img src="properties/pr2_list.jpeg" alt=""></a>
+                </div>
+                <div class="info">
+                    <div class="price">
+                        <div><strong>$2,400,000</strong></div>
+                        <div class="like">Like</div>
+                    </div>
+                    <div class="tags">
+                        <div class="tag"><img src="tags logo/bed.png" alt="">4 bd</div>
+                        <div class="tag"><img src="tags logo/bath.png" alt="">3 ba</div>
+                        <div class="tag"><img src="tags logo/area.png" alt="">3503 Sq.ft</div>
+                    </div>
+                    <div class="address">3100 Fifth Line Mississauga ON L5L 1A2</div>
+                    <div class="button"><a target="_blank" href="listing2.html">Read More</a></div>
+                </div>
+            </div>
+       
+
+        
+            <div class="listing">
+                <div class="images">
+                   <a href="listing3.html" target="_blank"> <img src="properties/pr3_list.jpeg" alt=""></a>
+                </div>
+                <div class="info">
+                    <div class="price">
+                        <div><strong>$850,000</strong></div>
+                        <div class="like">Like</div>
+                    </div>
+                    <div class="tags">
+                        <div class="tag"><img src="tags logo/bed.png" alt="">2 bd</div>
+                        <div class="tag"><img src="tags logo/bath.png" alt="">1 ba</div>
+                        <div class="tag"><img src="tags logo/area.png" alt="">1560 Sq.ft</div>
+                    </div>
+                    <div class="address">353 Cooper Ct Oshawa ON L1J 6V4</div>
+                    <div class="button"><a target="_blank" href="listing3.html">Read More</a></div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="footer">
+        <p>&copy Harsh Eary | 301419409 | Comp-213 | Winter 2024 | <a target="_blank" href="sitemap.html">Credits</a> | <a href="http://studentweb.cencol.ca/heary/">Landing
+                Page</a></a></p>
+    </div>
+
+
+</body>
+
+</html>
